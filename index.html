@@ -20,6 +20,9 @@
     .reveal .links li { font-size: 26px; margin-bottom: 8px; }
     .reveal .links { margin-top: 28px; }
     .reveal a { color: #1a4f8b; }
+    .reveal .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+    .reveal .cols h3 { font-size: 34px; font-weight: 700; margin: 0 0 18px; }
+    .reveal .cols li { font-size: 27px; margin-bottom: 14px; }
   </style>
 </head>
 <body>
@@ -58,15 +61,26 @@
 
       <section id="learn">
         <h2>Skills</h2>
-        <ul>
-          <li>Build a working tool for a problem in their own library and share it with colleagues</li>
-          <li>Automate repetitive work, such as cleaning metadata or reconciling reports</li>
-          <li>Turn library data into dashboards, reports, and searchable sites</li>
-          <li>Take on projects they would otherwise hand to IT staff or a vendor</li>
-          <li>Evaluate AI products and vendor claims from hands-on experience</li>
-          <li>Explain to students and faculty how researchers use agentic AI and how the technology works</li>
-          <li>Decide when to use an agentic tool for a task</li>
-        </ul>
+        <div class="cols">
+          <div>
+            <h3>Build</h3>
+            <ul>
+              <li>Make a working tool for a problem in their own library and share it with colleagues</li>
+              <li>Automate repetitive work, such as cleaning metadata or reconciling reports</li>
+              <li>Turn library data into dashboards, reports, and searchable sites</li>
+              <li>Take on projects they would otherwise hand to IT staff or a vendor</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Understand</h3>
+            <ul>
+              <li>Follow how agentic AI is changing library work and research</li>
+              <li>Explain to students and faculty how researchers use agentic AI and how the technology works</li>
+              <li>Evaluate AI products and vendor claims from hands-on experience</li>
+              <li>Decide when to use an agentic tool for a task</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="new">
